@@ -1,0 +1,60 @@
+.LOG
+12:05 PM 9/08/2010
+Version: 1.0.0
+Branched the project. Intend to add new module for file handling. Many of the modules are to be rewritten to work properly or nicer, as per new knowledge after digging into the python Docs a bit more.
+
+12:09 PM 9/08/2010
+Version: 1.1.0
+Removed all old modules, going to recreate them. Started with passCheck.py
+
+1:42 PM 9/08/2010
+Version: 1.2.0
+Updating newTrip.py along with fileHandling.py. Going to implement a new way to save the log to file.
+
+2:22 PM 9/08/2010
+Version: 1.2.1
+Still working on newTrip.py, not working perfectly. Problems when saving totals to file. Could move to on-the-fly calculation (for line in file, total += data[13] etc.). Finishing up for now, only minor revision number.
+
+8:40 AM 13/08/2010
+Version: 1.2.2
+Continuing work on read/write of logbook and totals data.
+
+8:45 AM 13/08/2010
+Version: 1.3.0
+Completed work on writing log and totals to file, now working on the logviewer module. Major revision number as it is a new module that has been added.
+
+9:11 AM 13/08/2010
+Version: 1.3.1
+Completed log viewer module, now testing and refining to ensure it works cleanly. Code compared to before branching is much neater and consise.
+
+9:19 AM 13/08/2010
+Version: 1.3.2
+Finished debugging the viewer module, just the totals one to go. Error handling is required when asking for a trip that isn't in logbook (EOF error)
+
+9:26 AM 13/08/2010
+Version: 1.3.3
+Finished totals module, only Error Handling and GUI to be completed.
+
+2:21 PM 13/08/2010
+Version: 1.4.0
+Now to implement Error Handling into the program
+
+2:41 PM 13/08/2010
+Version: 1.4.1
+Error Handling for ValueError implemented in newTrip module.
+
+9:58 AM 16/08/2010
+Version: 1.4.2
+Final debug and error checking before GUI implementation.
+
+10:30 AM 16/08/2010
+Version: 1.4.3
+Implemented IndexError in viewLog module.
+
+2:16 PM 20/08/2010
+Version: 1.4.4
+Suggestions and improvements after various beta testing.
+
+4:22 AM 26/08/2010
+Version: 1.5.0
+Text-Based GUI tweaks.
