@@ -4,15 +4,16 @@
 |                                          |
 |  Welcome to the LEARNER DRIVER LOGBOOK!  |
 |                                          |
-| Here's what you do. If you'd like the    |
-| documentation, head over to the \docs    |
-| folder for the Project Planning and the  |
-| project's CHANGELOG.                     |
+| Written in Python, to be used anywhere.  |
+| Designed to be used as a replacement for |
+| the paper logbook that is used currently |
+| by the RTA.                              |
 |                                          |
-| If you're here to install, there's inst- |
-| ructions for that in the \docs folder,   |
-| and the files you'll need are in the     |
-| \install folder.                         |
+| This project aims to replace that with a |
+| fully working and functional alternative |
+| that is usable by the less tech-minded   |
+| people (the supervising drivers, i.e.    |
+| the parents)                             |
 |                                          |
 | Enjoy!                                   |
 |                   - Nathan Chapman, 2010 |
